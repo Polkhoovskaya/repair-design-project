@@ -1,3 +1,7 @@
 $primary: teal;
 $danger: purple;
 @import "~bootstrap/scss/bootstrap";
+
+@media screen and (min-width: 1440px) {
+      width: 200px;
+}
