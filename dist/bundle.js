@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\n\r\nconst slider_right = document.getElementById('slider-right');\r\nconst slider_left =  document.getElementById('slider-left');\r\n\r\nslider_left.style.display = \"none\";\r\n\r\nslider_right.addEventListener('click', () => {\r\n    const content = document.getElementById('slider-content');\r\n    content.className = \"completed-projects-slider-wrapper__content second-position\";\r\n    slider_right.style.display = \"none\";\r\n    slider_left.style.display = \"flex\";\r\n});\r\n\r\nslider_left.addEventListener('click', () => {\r\n    const content = document.getElementById('slider-content');\r\n    content.className = \"completed-projects-slider-wrapper__content first-position\";\r\n    slider_right.style.display = \"flex\";\r\n    slider_left.style.display = \"none\";\r\n});\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
